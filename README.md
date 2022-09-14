@@ -14,7 +14,9 @@ It is recommended to not look for more than 6 characters per each pattern as it 
 ## Usage
 
 ```
-./pocket-vanitygen -patterns=420-69,000-00
+git clone git@github.com:okdas/pocket-vanitygen.git
+cd pocket-vanitygen
+go run . -patterns=420-69,000-00
 Looking for:  [[420 69] [000 00]]
 running on cpus:  10
 Found 42038fdef512c0e5064f6e9412d6e7315e603e69 c91a5293bdd9ce06b9ff7597d58518a309aed726af9d087f03dd44de8f8fe9d68904131d8170b5c22be48f9c1a0baf7f6f44293f9b50f66407d84d77b5f2948d
